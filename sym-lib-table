@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name custom)(type Legacy)(uri ${KIPRJMOD}/kicad_db/lib/custom.lib)(options "")(descr ""))
+  (lib (name solder_3_pads)(type Legacy)(uri ${KIPRJMOD}/kicad_db/lib/solder_3_pads.lib)(options "")(descr ""))
+)

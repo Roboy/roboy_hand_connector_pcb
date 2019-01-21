@@ -1,0 +1,6 @@
+[submodule "A1335_board"]
+	path = A1335_board
+	url = https://github.com/Roboy/A1335_board
+[submodule "kicad_db"]
+	path = kicad_db
+	url = https://github.com/Roboy/kicad_db
