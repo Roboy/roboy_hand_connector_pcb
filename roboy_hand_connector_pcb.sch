@@ -247,8 +247,6 @@ Wire Notes Line
 	9700 3800 7300 3800
 Wire Notes Line
 	7300 3800 7300 1000
-Text Notes 9700 1200 2    157  ~ 0
-HAND
 $Comp
 L roboy_hand_connector_pcb-rescue:TE-Connectivity_Micro_Match_215079-10-custom J12
 U 1 1 5C4BA66F
@@ -490,76 +488,16 @@ MOTORS
 Text GLabel 3400 2550 2    50   BiDi ~ 0
 GND
 $Comp
-L Transistor_FET:BS107 Q2
-U 1 1 5C504CD3
-P 9000 1925
-F 0 "Q2" H 9205 1971 50  0000 L CNN
-F 1 "BS107" H 9205 1880 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 1850 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 1925 50  0001 L CNN
-	1    9000 1925
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x20 J1
 U 1 1 5C50515D
 P 3200 2850
 F 0 "J1" H 3120 1625 50  0000 C CNN
 F 1 "Conn_01x20" H 3120 1716 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x10_Pitch1.27mm" H 3200 2850 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x10_Pitch_1.27mm" H 3200 2850 50  0001 C CNN
 F 3 "~" H 3200 2850 50  0001 C CNN
 	1    3200 2850
 	-1   0    0    1   
 $EndComp
-Text GLabel 8800 2025 0    50   Input ~ 0
-24V
-Text GLabel 9000 1725 0    50   Input ~ 0
-GATE1
-$Comp
-L Transistor_FET:BS107 Q1
-U 1 1 5C51DA09
-P 9000 1300
-F 0 "Q1" H 9205 1346 50  0000 L CNN
-F 1 "BS107" H 9205 1255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 1225 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 1300 50  0001 L CNN
-	1    9000 1300
-	0    1    1    0   
-$EndComp
-Text GLabel 8800 1400 0    50   Input ~ 0
-24V
-Text GLabel 9000 1100 0    50   Input ~ 0
-GATE0
-$Comp
-L Transistor_FET:BS107 Q3
-U 1 1 5C521AB4
-P 9000 2575
-F 0 "Q3" H 9205 2621 50  0000 L CNN
-F 1 "BS107" H 9205 2530 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 2500 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 2575 50  0001 L CNN
-	1    9000 2575
-	0    1    1    0   
-$EndComp
-Text GLabel 8800 2675 0    50   Input ~ 0
-24V
-Text GLabel 9000 2375 0    50   Input ~ 0
-GATE2
-$Comp
-L Transistor_FET:BS107 Q4
-U 1 1 5C531DBE
-P 9000 3225
-F 0 "Q4" H 9205 3271 50  0000 L CNN
-F 1 "BS107" H 9205 3180 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 3150 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 3225 50  0001 L CNN
-	1    9000 3225
-	0    1    1    0   
-$EndComp
-Text GLabel 8800 3325 0    50   Input ~ 0
-24V
-Text GLabel 9000 3025 0    50   Input ~ 0
-GATE3
 Text GLabel 3400 2450 2    50   Input ~ 0
 GATE0
 Text GLabel 3400 2350 2    50   Input ~ 0
@@ -583,10 +521,6 @@ F 3 "~" H 9575 2325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9200 1400 9300 1400
-Wire Wire Line
-	9300 1400 9300 2225
-Wire Wire Line
 	9300 2225 9375 2225
 Wire Wire Line
 	9375 2325 9275 2325
@@ -604,4 +538,70 @@ Wire Wire Line
 	9325 2525 9325 3325
 Wire Wire Line
 	9325 3325 9200 3325
+Text GLabel 9000 1100 0    50   Input ~ 0
+GATE0
+Wire Wire Line
+	9300 1400 9300 2225
+Wire Wire Line
+	9200 1400 9300 1400
+Text GLabel 9000 3025 0    50   Input ~ 0
+GATE3
+Text GLabel 8800 3325 0    50   Input ~ 0
+24V
+$Comp
+L Transistor_FET:BS107 Q4
+U 1 1 5C531DBE
+P 9000 3225
+F 0 "Q4" H 9205 3271 50  0000 L CNN
+F 1 "BS107" H 9205 3180 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 3150 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 3225 50  0001 L CNN
+	1    9000 3225
+	0    1    1    0   
+$EndComp
+Text GLabel 9000 2375 0    50   Input ~ 0
+GATE2
+Text GLabel 8800 2675 0    50   Input ~ 0
+24V
+$Comp
+L Transistor_FET:BS107 Q3
+U 1 1 5C521AB4
+P 9000 2575
+F 0 "Q3" H 9205 2621 50  0000 L CNN
+F 1 "BS107" H 9205 2530 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 2500 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 2575 50  0001 L CNN
+	1    9000 2575
+	0    1    1    0   
+$EndComp
+Text GLabel 8800 1400 0    50   Input ~ 0
+24V
+$Comp
+L Transistor_FET:BS107 Q1
+U 1 1 5C51DA09
+P 9000 1300
+F 0 "Q1" H 9205 1346 50  0000 L CNN
+F 1 "BS107" H 9205 1255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 1225 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 1300 50  0001 L CNN
+	1    9000 1300
+	0    1    1    0   
+$EndComp
+Text GLabel 9000 1725 0    50   Input ~ 0
+GATE1
+Text GLabel 8800 2025 0    50   Input ~ 0
+24V
+$Comp
+L Transistor_FET:BS107 Q2
+U 1 1 5C504CD3
+P 9000 1925
+F 0 "Q2" H 9205 1971 50  0000 L CNN
+F 1 "BS107" H 9205 1880 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 1850 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 1925 50  0001 L CNN
+	1    9000 1925
+	0    1    1    0   
+$EndComp
+Text Notes 9700 1200 2    157  ~ 0
+HAND
 $EndSCHEMATC
