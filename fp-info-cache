@@ -1,4 +1,4 @@
-4585433161610479
+4602690326497479
 Buttons_Switches_SMD
 DIP_SWITCH_8x1
 
@@ -1925,6 +1925,27 @@ Diode SOD993
 2
 2
 custom_lib
+Everlight_3x2x1_side_lens_wide_LED
+
+
+0
+3
+2
+custom_lib
+Everlight_3x2x1_side_lens_wide_Phototransistor
+
+
+0
+3
+2
+custom_lib
+FPC_0.5mmx10
+
+
+0
+10
+10
+custom_lib
 IM69D130_Simic_uPhone
 
 
@@ -1952,6 +1973,20 @@ LED NeoPixel Mini
 0
 4
 4
+custom_lib
+MP34DB02_chip_side
+
+
+0
+9
+5
+custom_lib
+MP34DB02_chip_side_nocage
+
+
+0
+8
+5
 custom_lib
 PowerPAIR-6x5F-8
 
@@ -2023,6 +2058,13 @@ MesurementPoint Square SMDPad 1.5mmx3mm
 1
 1
 custom_lib
+Solder_Bridge_3_0402
+
+
+0
+3
+3
+custom_lib
 SW_SPST_KXT3
 https://www.ckswitches.com/media/1465/kxt3.pdf
 Tactile Switch
@@ -2065,9 +2107,23 @@ The_0402_FP
 2
 2
 custom_lib
+TSL1401CL
+
+
+0
+8
+8
+custom_lib
 TSOP-6
 6-pin TSOP-6 package, http://www.icbank.com/icbank_data/semi_package/tsop6_dim.pdf
 TSOP-6
+0
+6
+6
+custom_lib
+ULLGA6_1.45_x_1.0_0.5P
+
+
 0
 6
 6
@@ -2099,6 +2155,13 @@ Wago_2060_3_THT
 0
 6
 3
+custom_lib
+X2QFN-8
+
+
+0
+8
+8
 Diodes_SMD
 Diode_Bridge_DFS
 SMD diode bridge DFS, see http://www.vishay.com/docs/88854/padlayouts.pdf

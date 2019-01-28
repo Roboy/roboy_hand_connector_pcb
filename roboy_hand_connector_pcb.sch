@@ -457,7 +457,7 @@ L Connector_Generic:Conn_01x02 J5
 U 1 1 5C4EFB23
 P 4850 3925
 F 0 "J5" H 4930 3917 50  0000 L CNN
-F 1 "Conn_01x02" H 4930 3826 50  0000 L CNN
+F 1 "PWM" H 4930 3826 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4850 3925 50  0001 C CNN
 F 3 "~" H 4850 3925 50  0001 C CNN
 	1    4850 3925
@@ -515,93 +515,102 @@ U 1 1 5C54AD3B
 P 9575 2325
 F 0 "J13" H 9655 2317 50  0000 L CNN
 F 1 "Conn_01x04" H 9655 2226 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 9575 2325 50  0001 C CNN
+F 2 "Connectors:Fan_Pin_Header_Straight_1x04" H 9575 2325 50  0001 C CNN
 F 3 "~" H 9575 2325 50  0001 C CNN
 	1    9575 2325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9300 2225 9375 2225
-Wire Wire Line
-	9375 2325 9275 2325
-Wire Wire Line
-	9275 2325 9275 2025
-Wire Wire Line
-	9275 2025 9200 2025
-Wire Wire Line
-	9200 2675 9200 2425
-Wire Wire Line
-	9200 2425 9375 2425
-Wire Wire Line
-	9375 2525 9325 2525
-Wire Wire Line
-	9325 2525 9325 3325
-Wire Wire Line
-	9325 3325 9200 3325
-Text GLabel 9000 1100 0    50   Input ~ 0
+Text GLabel 8900 1750 0    50   Input ~ 0
 GATE0
-Wire Wire Line
-	9300 1400 9300 2225
-Wire Wire Line
-	9200 1400 9300 1400
-Text GLabel 9000 3025 0    50   Input ~ 0
-GATE3
-Text GLabel 8800 3325 0    50   Input ~ 0
+Text GLabel 8900 1650 0    50   Input ~ 0
 24V
-$Comp
-L Transistor_FET:BS107 Q4
-U 1 1 5C531DBE
-P 9000 3225
-F 0 "Q4" H 9205 3271 50  0000 L CNN
-F 1 "BS107" H 9205 3180 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 3150 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 3225 50  0001 L CNN
-	1    9000 3225
-	0    1    1    0   
-$EndComp
-Text GLabel 9000 2375 0    50   Input ~ 0
-GATE2
-Text GLabel 8800 2675 0    50   Input ~ 0
-24V
-$Comp
-L Transistor_FET:BS107 Q3
-U 1 1 5C521AB4
-P 9000 2575
-F 0 "Q3" H 9205 2621 50  0000 L CNN
-F 1 "BS107" H 9205 2530 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 2500 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 2575 50  0001 L CNN
-	1    9000 2575
-	0    1    1    0   
-$EndComp
-Text GLabel 8800 1400 0    50   Input ~ 0
-24V
-$Comp
-L Transistor_FET:BS107 Q1
-U 1 1 5C51DA09
-P 9000 1300
-F 0 "Q1" H 9205 1346 50  0000 L CNN
-F 1 "BS107" H 9205 1255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 1225 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 1300 50  0001 L CNN
-	1    9000 1300
-	0    1    1    0   
-$EndComp
-Text GLabel 9000 1725 0    50   Input ~ 0
+Text GLabel 8900 2150 0    50   Input ~ 0
 GATE1
-Text GLabel 8800 2025 0    50   Input ~ 0
+Text GLabel 8900 2050 0    50   Input ~ 0
 24V
-$Comp
-L Transistor_FET:BS107 Q2
-U 1 1 5C504CD3
-P 9000 1925
-F 0 "Q2" H 9205 1971 50  0000 L CNN
-F 1 "BS107" H 9205 1880 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 1850 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 1925 50  0001 L CNN
-	1    9000 1925
-	0    1    1    0   
-$EndComp
 Text Notes 9700 1200 2    157  ~ 0
 HAND
+Wire Wire Line
+	9300 1325 8900 1325
+Wire Wire Line
+	9300 1325 9300 2225
+Wire Wire Line
+	8900 1325 8900 1450
+$Comp
+L Connector_Generic:Conn_01x08 J14
+U 1 1 5C510F09
+P 9100 1750
+F 0 "J14" H 9179 1742 50  0000 L CNN
+F 1 "AON7804" H 9179 1651 50  0000 L CNN
+F 2 "Housings_DFN_QFN:DFN-8-1EP_3x3mm_Pitch0.5mm" H 9100 1750 50  0001 C CNN
+F 3 "~" H 9100 1750 50  0001 C CNN
+	1    9100 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1550 8900 1450
+Connection ~ 8900 1450
+Wire Wire Line
+	8900 1850 8900 1950
+Wire Wire Line
+	8575 1950 8575 2325
+Connection ~ 8900 1950
+Text GLabel 8925 2850 0    50   Input ~ 0
+GATE2
+Text GLabel 8925 2750 0    50   Input ~ 0
+24V
+Text GLabel 8925 3250 0    50   Input ~ 0
+GATE3
+Text GLabel 8925 3150 0    50   Input ~ 0
+24V
+Wire Wire Line
+	8925 2425 8925 2550
+$Comp
+L Connector_Generic:Conn_01x08 J15
+U 1 1 5C530314
+P 9125 2850
+F 0 "J15" H 9204 2842 50  0000 L CNN
+F 1 "AON7804" H 9204 2751 50  0000 L CNN
+F 2 "Housings_DFN_QFN:DFN-8-1EP_3x3mm_Pitch0.5mm" H 9125 2850 50  0001 C CNN
+F 3 "~" H 9125 2850 50  0001 C CNN
+	1    9125 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8925 2425 9375 2425
+Wire Wire Line
+	9375 2525 9375 3425
+Wire Wire Line
+	8925 2550 8925 2650
+Connection ~ 8925 2550
+Wire Wire Line
+	8925 2950 8925 3050
+Connection ~ 8925 3050
+Wire Wire Line
+	8600 3050 8925 3050
+Wire Wire Line
+	8600 3050 8600 3425
+Wire Wire Line
+	8600 3425 9375 3425
+Wire Wire Line
+	8575 1950 8900 1950
+Wire Wire Line
+	8575 2325 9375 2325
+$Comp
+L Connector_Generic:Conn_01x02 J16
+U 1 1 5C4FBC7C
+P 5375 3125
+F 0 "J16" H 5455 3117 50  0000 L CNN
+F 1 "Power24V" H 5455 3026 50  0000 L CNN
+F 2 "custom_lib:Wago_2060_2_SMD" H 5375 3125 50  0001 C CNN
+F 3 "~" H 5375 3125 50  0001 C CNN
+	1    5375 3125
+	1    0    0    -1  
+$EndComp
+Text GLabel 5175 3125 0    50   BiDi ~ 0
+GND
+Text GLabel 5175 3225 0    50   Input ~ 0
+24V
 $EndSCHEMATC
