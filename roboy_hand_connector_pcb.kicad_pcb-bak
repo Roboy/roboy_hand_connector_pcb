@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 0)
     (tracks 0)
     (zones 0)
     (modules 18)
@@ -591,7 +591,7 @@
   )
 
   (module custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm (layer F.Cu) (tedit 5ACA2596) (tstamp 5C4EEB80)
-    (at 150 95 180)
+    (at 143 103 180)
     (descr "TE-Connectivity Micro-Match connector, female, 02x02, board mount, 1.27mm pitch, 215079-4")
     (tags "connector, TE-Connectivity, female")
     (path /5C457F28)
@@ -637,7 +637,7 @@
   )
 
   (module custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm (layer F.Cu) (tedit 5ACA2596) (tstamp 5C4EEB9A)
-    (at 158 93 90)
+    (at 144 93 90)
     (descr "TE-Connectivity Micro-Match connector, female, 02x02, board mount, 1.27mm pitch, 215079-4")
     (tags "connector, TE-Connectivity, female")
     (path /5C4582CE)
@@ -729,7 +729,7 @@
   )
 
   (module custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm (layer F.Cu) (tedit 5ACA2596) (tstamp 5C4EEBCE)
-    (at 176 93 90)
+    (at 189 93 90)
     (descr "TE-Connectivity Micro-Match connector, female, 02x02, board mount, 1.27mm pitch, 215079-4")
     (tags "connector, TE-Connectivity, female")
     (path /5C45A7F3)
@@ -775,7 +775,7 @@
   )
 
   (module custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm (layer F.Cu) (tedit 5ACA2596) (tstamp 5C4EEBE8)
-    (at 185 93 90)
+    (at 212 93 90)
     (descr "TE-Connectivity Micro-Match connector, female, 02x02, board mount, 1.27mm pitch, 215079-4")
     (tags "connector, TE-Connectivity, female")
     (path /5C45A7FA)
@@ -821,7 +821,7 @@
   )
 
   (module custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm (layer F.Cu) (tedit 5ACA2596) (tstamp 5C4EEC02)
-    (at 193 95)
+    (at 213 103)
     (descr "TE-Connectivity Micro-Match connector, female, 02x02, board mount, 1.27mm pitch, 215079-4")
     (tags "connector, TE-Connectivity, female")
     (path /5C45A801)
@@ -1209,10 +1209,5 @@
       (rotate (xyz 0 0 0))
     )
   )
-
-  (gr_line (start 139 125) (end 139 89) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 219 125) (end 139 125) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 219 89) (end 219 125) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 139 89) (end 219 89) (layer Edge.Cuts) (width 0.05))
 
 )

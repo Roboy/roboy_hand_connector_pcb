@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L custom:TE-Connectivity_Micro_Match_215079-4 J?
+L roboy_hand_connector_pcb-rescue:TE-Connectivity_Micro_Match_215079-4-custom J6
 U 1 1 5C457F28
 P 8000 1250
-F 0 "J?" H 8078 1291 50  0000 L CNN
+F 0 "J6" H 8078 1291 50  0000 L CNN
 F 1 "thumb" H 8078 1200 50  0000 L CNN
-F 2 "" H 8000 1250 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8000 1250 50  0001 C CNN
 F 3 "" H 8000 1250 50  0001 C CNN
 	1    8000 1250
 	1    0    0    -1  
@@ -38,23 +38,23 @@ Wire Wire Line
 Wire Wire Line
 	7800 1200 7400 1200
 $Comp
-L custom:TE-Connectivity_Micro_Match_215079-4 J?
+L roboy_hand_connector_pcb-rescue:TE-Connectivity_Micro_Match_215079-4-custom J7
 U 1 1 5C4582CE
 P 8000 1700
-F 0 "J?" H 8077 1741 50  0000 L CNN
+F 0 "J7" H 8077 1741 50  0000 L CNN
 F 1 "index" H 8077 1650 50  0000 L CNN
-F 2 "" H 8000 1700 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8000 1700 50  0001 C CNN
 F 3 "" H 8000 1700 50  0001 C CNN
 	1    8000 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom:TE-Connectivity_Micro_Match_215079-4 J?
+L roboy_hand_connector_pcb-rescue:TE-Connectivity_Micro_Match_215079-4-custom J8
 U 1 1 5C458395
 P 8000 2150
-F 0 "J?" H 8077 2191 50  0000 L CNN
+F 0 "J8" H 8077 2191 50  0000 L CNN
 F 1 "middle" H 8077 2100 50  0000 L CNN
-F 2 "" H 8000 2150 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8000 2150 50  0001 C CNN
 F 3 "" H 8000 2150 50  0001 C CNN
 	1    8000 2150
 	1    0    0    -1  
@@ -82,34 +82,34 @@ GND
 Wire Wire Line
 	7800 2100 7400 2100
 $Comp
-L custom:TE-Connectivity_Micro_Match_215079-4 J?
+L roboy_hand_connector_pcb-rescue:TE-Connectivity_Micro_Match_215079-4-custom J9
 U 1 1 5C45A7F3
 P 8000 2600
-F 0 "J?" H 8078 2641 50  0000 L CNN
+F 0 "J9" H 8078 2641 50  0000 L CNN
 F 1 "ring" H 8078 2550 50  0000 L CNN
-F 2 "" H 8000 2600 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8000 2600 50  0001 C CNN
 F 3 "" H 8000 2600 50  0001 C CNN
 	1    8000 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom:TE-Connectivity_Micro_Match_215079-4 J?
+L roboy_hand_connector_pcb-rescue:TE-Connectivity_Micro_Match_215079-4-custom J10
 U 1 1 5C45A7FA
 P 8000 3050
-F 0 "J?" H 8077 3091 50  0000 L CNN
+F 0 "J10" H 8077 3091 50  0000 L CNN
 F 1 "little" H 8077 3000 50  0000 L CNN
-F 2 "" H 8000 3050 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8000 3050 50  0001 C CNN
 F 3 "" H 8000 3050 50  0001 C CNN
 	1    8000 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom:TE-Connectivity_Micro_Match_215079-4 J?
+L roboy_hand_connector_pcb-rescue:TE-Connectivity_Micro_Match_215079-4-custom J11
 U 1 1 5C45A801
 P 8000 3500
-F 0 "J?" H 8077 3541 50  0000 L CNN
+F 0 "J11" H 8077 3541 50  0000 L CNN
 F 1 "sensors" H 8077 3450 50  0000 L CNN
-F 2 "" H 8000 3500 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8000 3500 50  0001 C CNN
 F 3 "" H 8000 3500 50  0001 C CNN
 	1    8000 3500
 	1    0    0    -1  
@@ -145,10 +145,10 @@ Wire Wire Line
 	7400 3450 7400 3000
 Connection ~ 7400 3000
 $Comp
-L Interface_Expansion:TCA9548AMRGER U?
+L Interface_Expansion:TCA9548AMRGER U1
 U 1 1 5C440C71
 P 6000 2000
-F 0 "U?" H 6000 3081 50  0000 C CNN
+F 0 "U1" H 6000 3081 50  0000 C CNN
 F 1 "TCA9548AMRGER" H 6000 2990 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 6000 1000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 6050 2250 50  0001 C CNN
@@ -250,12 +250,12 @@ Wire Notes Line
 Text Notes 9700 1200 2    157  ~ 0
 HAND
 $Comp
-L custom:TE-Connectivity_Micro_Match_215079-10 J?
+L roboy_hand_connector_pcb-rescue:TE-Connectivity_Micro_Match_215079-10-custom J12
 U 1 1 5C4BA66F
 P 8000 4400
-F 0 "J?" H 8077 4441 50  0000 L CNN
+F 0 "J12" H 8077 4441 50  0000 L CNN
 F 1 "skin" H 8077 4350 50  0000 L CNN
-F 2 "" H 8000 4700 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x05_Pitch_1.27mm" H 8000 4700 50  0001 C CNN
 F 3 "" H 8000 4700 50  0001 C CNN
 	1    8000 4400
 	1    0    0    -1  
@@ -291,12 +291,12 @@ Wire Notes Line
 Text Notes 9700 4050 2    157  ~ 0
 SKIN
 $Comp
-L custom:TE-Connectivity_Micro_Match_215079-10 J?
+L roboy_hand_connector_pcb-rescue:TE-Connectivity_Micro_Match_215079-10-custom J2
 U 1 1 5C4BF6BF
 P 3200 4650
-F 0 "J?" H 3119 3975 50  0000 C CNN
+F 0 "J2" H 3119 3975 50  0000 C CNN
 F 1 "skin" H 3119 4066 50  0000 C CNN
-F 2 "" H 3200 4950 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x05_Pitch_1.27mm" H 3200 4950 50  0001 C CNN
 F 3 "" H 3200 4950 50  0001 C CNN
 	1    3200 4650
 	-1   0    0    1   
@@ -321,17 +321,6 @@ Text Label 3400 4300 0    50   ~ 0
 skin_pin_9
 Text Label 3400 4200 0    50   ~ 0
 skin_pin_10
-$Comp
-L custom:TE-Connectivity_Micro_Match_215079-10 J?
-U 1 1 5C4C6BE0
-P 3200 3300
-F 0 "J?" H 3119 2625 50  0000 C CNN
-F 1 "sensors" H 3119 2716 50  0000 C CNN
-F 2 "" H 3200 3600 50  0001 C CNN
-F 3 "" H 3200 3600 50  0001 C CNN
-	1    3200 3300
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5600 1300 3700 1300
 Wire Wire Line
@@ -351,23 +340,23 @@ Wire Wire Line
 Wire Wire Line
 	3900 1800 5600 1800
 $Comp
-L custom:TE-Connectivity_Micro_Match_215079-6 J?
+L roboy_hand_connector_pcb-rescue:TE-Connectivity_Micro_Match_215079-6-custom J3
 U 1 1 5C4CEA06
 P 4850 2800
-F 0 "J?" H 4927 2841 50  0000 L CNN
+F 0 "J3" H 4927 2841 50  0000 L CNN
 F 1 "motor0" H 4927 2750 50  0000 L CNN
-F 2 "" H 4850 2900 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x03_Pitch_1.27mm" H 4850 2900 50  0001 C CNN
 F 3 "" H 4850 2900 50  0001 C CNN
 	1    4850 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom:TE-Connectivity_Micro_Match_215079-6 J?
+L roboy_hand_connector_pcb-rescue:TE-Connectivity_Micro_Match_215079-6-custom J4
 U 1 1 5C4CEACE
 P 4850 3500
-F 0 "J?" H 4927 3541 50  0000 L CNN
+F 0 "J4" H 4927 3541 50  0000 L CNN
 F 1 "motor1" H 4927 3450 50  0000 L CNN
-F 2 "" H 4850 3600 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x03_Pitch_1.27mm" H 4850 3600 50  0001 C CNN
 F 3 "" H 4850 3600 50  0001 C CNN
 	1    4850 3500
 	1    0    0    -1  
@@ -459,4 +448,160 @@ Wire Wire Line
 Wire Wire Line
 	3800 3750 4550 3750
 Connection ~ 4550 3750
+Text GLabel 3400 3750 2    50   BiDi ~ 0
+5V
+Text GLabel 3400 3650 2    50   BiDi ~ 0
+3.3V
+Text GLabel 6000 1100 2    50   BiDi ~ 0
+3.3V
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5C4EFB23
+P 4850 3925
+F 0 "J5" H 4930 3917 50  0000 L CNN
+F 1 "Conn_01x02" H 4930 3826 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4850 3925 50  0001 C CNN
+F 3 "~" H 4850 3925 50  0001 C CNN
+	1    4850 3925
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 2650 2    50   BiDi ~ 0
+PWM0
+Text GLabel 3400 2750 2    50   BiDi ~ 0
+PWM1
+Text GLabel 4650 3925 0    50   BiDi ~ 0
+PWM0
+Text GLabel 4650 4025 0    50   BiDi ~ 0
+PWM1
+Wire Notes Line
+	4025 2025 4025 4225
+Wire Notes Line
+	4025 4225 5450 4225
+Wire Notes Line
+	5450 4225 5450 2500
+Wire Notes Line
+	5450 2500 5025 2500
+Wire Notes Line
+	5025 2500 5025 2025
+Wire Notes Line
+	5025 2025 4025 2025
+Text Notes 5000 2250 2    157  ~ 0
+MOTORS
+Text GLabel 3400 2550 2    50   BiDi ~ 0
+GND
+$Comp
+L Transistor_FET:BS107 Q2
+U 1 1 5C504CD3
+P 9000 1925
+F 0 "Q2" H 9205 1971 50  0000 L CNN
+F 1 "BS107" H 9205 1880 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 1850 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 1925 50  0001 L CNN
+	1    9000 1925
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x20 J1
+U 1 1 5C50515D
+P 3200 2850
+F 0 "J1" H 3120 1625 50  0000 C CNN
+F 1 "Conn_01x20" H 3120 1716 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x10_Pitch1.27mm" H 3200 2850 50  0001 C CNN
+F 3 "~" H 3200 2850 50  0001 C CNN
+	1    3200 2850
+	-1   0    0    1   
+$EndComp
+Text GLabel 8800 2025 0    50   Input ~ 0
+24V
+Text GLabel 9000 1725 0    50   Input ~ 0
+GATE1
+$Comp
+L Transistor_FET:BS107 Q1
+U 1 1 5C51DA09
+P 9000 1300
+F 0 "Q1" H 9205 1346 50  0000 L CNN
+F 1 "BS107" H 9205 1255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 1225 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 1300 50  0001 L CNN
+	1    9000 1300
+	0    1    1    0   
+$EndComp
+Text GLabel 8800 1400 0    50   Input ~ 0
+24V
+Text GLabel 9000 1100 0    50   Input ~ 0
+GATE0
+$Comp
+L Transistor_FET:BS107 Q3
+U 1 1 5C521AB4
+P 9000 2575
+F 0 "Q3" H 9205 2621 50  0000 L CNN
+F 1 "BS107" H 9205 2530 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 2500 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 2575 50  0001 L CNN
+	1    9000 2575
+	0    1    1    0   
+$EndComp
+Text GLabel 8800 2675 0    50   Input ~ 0
+24V
+Text GLabel 9000 2375 0    50   Input ~ 0
+GATE2
+$Comp
+L Transistor_FET:BS107 Q4
+U 1 1 5C531DBE
+P 9000 3225
+F 0 "Q4" H 9205 3271 50  0000 L CNN
+F 1 "BS107" H 9205 3180 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 3150 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF" H 9000 3225 50  0001 L CNN
+	1    9000 3225
+	0    1    1    0   
+$EndComp
+Text GLabel 8800 3325 0    50   Input ~ 0
+24V
+Text GLabel 9000 3025 0    50   Input ~ 0
+GATE3
+Text GLabel 3400 2450 2    50   Input ~ 0
+GATE0
+Text GLabel 3400 2350 2    50   Input ~ 0
+GATE1
+Text GLabel 3400 2250 2    50   Input ~ 0
+GATE2
+Text GLabel 3400 2150 2    50   Input ~ 0
+GATE3
+NoConn ~ 3400 2050
+NoConn ~ 3400 1950
+NoConn ~ 3400 1850
+$Comp
+L Connector_Generic:Conn_01x04 J13
+U 1 1 5C54AD3B
+P 9575 2325
+F 0 "J13" H 9655 2317 50  0000 L CNN
+F 1 "Conn_01x04" H 9655 2226 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 9575 2325 50  0001 C CNN
+F 3 "~" H 9575 2325 50  0001 C CNN
+	1    9575 2325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 1400 9300 1400
+Wire Wire Line
+	9300 1400 9300 2225
+Wire Wire Line
+	9300 2225 9375 2225
+Wire Wire Line
+	9375 2325 9275 2325
+Wire Wire Line
+	9275 2325 9275 2025
+Wire Wire Line
+	9275 2025 9200 2025
+Wire Wire Line
+	9200 2675 9200 2425
+Wire Wire Line
+	9200 2425 9375 2425
+Wire Wire Line
+	9375 2525 9325 2525
+Wire Wire Line
+	9325 2525 9325 3325
+Wire Wire Line
+	9325 3325 9200 3325
 $EndSCHEMATC
