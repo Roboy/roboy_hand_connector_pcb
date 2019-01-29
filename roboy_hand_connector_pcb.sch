@@ -458,21 +458,21 @@ F 3 "~" H 9575 2325 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9300 2225 9375 2225
-Text GLabel 8900 1750 0    50   Input ~ 0
+Text GLabel 8600 1750 0    50   Input ~ 0
 GATE0
 Text GLabel 9200 1950 3    50   Input ~ 0
 GND
-Text GLabel 8725 2325 0    50   Input ~ 0
+Text GLabel 8425 2325 0    50   Input ~ 0
 GATE1
 Text GLabel 9025 2525 3    50   Input ~ 0
 GND
 Text Notes 9700 1200 2    157  ~ 0
 HAND
-Text GLabel 8900 3000 0    50   Input ~ 0
+Text GLabel 8600 3000 0    50   Input ~ 0
 GATE2
 Text GLabel 9200 3200 2    50   Input ~ 0
 GND
-Text GLabel 8750 3525 0    50   Input ~ 0
+Text GLabel 8425 3675 0    50   Input ~ 0
 GATE3
 Text GLabel 9050 3725 2    50   Input ~ 0
 GND
@@ -863,4 +863,52 @@ Text GLabel 5175 3475 0    50   Input ~ 0
 24V
 Text GLabel 5175 3375 0    50   Input ~ 0
 GND
+$Comp
+L Device:R R16
+U 1 1 5C50ECB5
+P 8750 1750
+F 0 "R16" H 8725 2000 50  0000 L CNN
+F 1 "1k" V 8750 1675 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 8680 1750 50  0001 C CNN
+F 3 "~" H 8750 1750 50  0001 C CNN
+	1    8750 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5C50EF3A
+P 8575 2325
+F 0 "R14" H 8550 2575 50  0000 L CNN
+F 1 "1k" V 8575 2250 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 8505 2325 50  0001 C CNN
+F 3 "~" H 8575 2325 50  0001 C CNN
+	1    8575 2325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5C50F086
+P 8750 3000
+F 0 "R17" H 8725 3250 50  0000 L CNN
+F 1 "1k" V 8750 2925 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 8680 3000 50  0001 C CNN
+F 3 "~" H 8750 3000 50  0001 C CNN
+	1    8750 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5C50F1E4
+P 8575 3675
+F 0 "R15" H 8550 3925 50  0000 L CNN
+F 1 "1k" V 8575 3600 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 8505 3675 50  0001 C CNN
+F 3 "~" H 8575 3675 50  0001 C CNN
+	1    8575 3675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 3525 8750 3675
+Wire Wire Line
+	8750 3675 8725 3675
 $EndSCHEMATC
