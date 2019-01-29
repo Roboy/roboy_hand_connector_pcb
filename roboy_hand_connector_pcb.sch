@@ -155,70 +155,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 6050 2250 50  0001 C CNN
 	1    6000 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7300 1750 7800 1750
-Wire Wire Line
-	7250 1600 7250 1850
-Wire Wire Line
-	7250 1850 7800 1850
-Wire Wire Line
-	7300 1750 7300 1500
-Wire Wire Line
-	7200 1700 7200 2200
-Wire Wire Line
-	7200 2200 7800 2200
-Wire Wire Line
-	7800 2300 7150 2300
-Wire Wire Line
-	7150 2300 7150 1800
-Wire Wire Line
-	7100 1900 7100 2650
-Wire Wire Line
-	7100 2650 7800 2650
-Wire Wire Line
-	7800 2750 7050 2750
-Wire Wire Line
-	7050 2750 7050 2000
-Wire Wire Line
-	7800 3100 7000 3100
-Wire Wire Line
-	7000 3100 7000 2100
-Wire Wire Line
-	6950 2200 6950 3200
-Wire Wire Line
-	6950 3200 7800 3200
-Wire Wire Line
-	6850 2300 6850 3550
-Wire Wire Line
-	6850 3550 7800 3550
-Wire Wire Line
-	7800 3650 6800 3650
-Wire Wire Line
-	6800 3650 6800 2400
-Wire Wire Line
-	6400 1300 7800 1300
-Wire Wire Line
-	6400 1400 7800 1400
-Wire Wire Line
-	6400 1500 7300 1500
-Wire Wire Line
-	6400 1600 7250 1600
-Wire Wire Line
-	6400 1700 7200 1700
-Wire Wire Line
-	6400 1800 7150 1800
-Wire Wire Line
-	6400 1900 7100 1900
-Wire Wire Line
-	6400 2000 7050 2000
-Wire Wire Line
-	6400 2100 7000 2100
-Wire Wire Line
-	6400 2200 6950 2200
-Wire Wire Line
-	6400 2300 6850 2300
-Wire Wire Line
-	6400 2400 6800 2400
 Text GLabel 5400 2300 0    50   BiDi ~ 0
 GND
 Wire Wire Line
@@ -294,7 +230,7 @@ U 1 1 5C4BF6BF
 P 3200 4650
 F 0 "J2" H 3119 3975 50  0000 C CNN
 F 1 "skin" H 3119 4066 50  0000 C CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x05_Pitch_1.27mm" H 3200 4950 50  0001 C CNN
+F 2 "custom_lib:FPC_0.5mmx10" H 3200 4950 50  0001 C CNN
 F 3 "" H 3200 4950 50  0001 C CNN
 	1    3200 4650
 	-1   0    0    1   
@@ -336,7 +272,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 3050 3900 1800
 Wire Wire Line
-	3900 1800 5600 1800
+	3900 1800 5150 1800
 $Comp
 L roboy_hand_connector_pcb-rescue:TE-Connectivity_Micro_Match_215079-6-custom J3
 U 1 1 5C4CEA06
@@ -515,7 +451,7 @@ U 1 1 5C54AD3B
 P 9575 2325
 F 0 "J13" H 9655 2317 50  0000 L CNN
 F 1 "Conn_01x04" H 9655 2226 50  0000 L CNN
-F 2 "Connectors:Fan_Pin_Header_Straight_1x04" H 9575 2325 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 9575 2325 50  0001 C CNN
 F 3 "~" H 9575 2325 50  0001 C CNN
 	1    9575 2325
 	1    0    0    -1  
@@ -524,80 +460,22 @@ Wire Wire Line
 	9300 2225 9375 2225
 Text GLabel 8900 1750 0    50   Input ~ 0
 GATE0
-Text GLabel 8900 1650 0    50   Input ~ 0
-24V
-Text GLabel 8900 2150 0    50   Input ~ 0
+Text GLabel 9200 1950 3    50   Input ~ 0
+GND
+Text GLabel 8725 2325 0    50   Input ~ 0
 GATE1
-Text GLabel 8900 2050 0    50   Input ~ 0
-24V
+Text GLabel 9025 2525 3    50   Input ~ 0
+GND
 Text Notes 9700 1200 2    157  ~ 0
 HAND
-Wire Wire Line
-	9300 1325 8900 1325
-Wire Wire Line
-	9300 1325 9300 2225
-Wire Wire Line
-	8900 1325 8900 1450
-$Comp
-L Connector_Generic:Conn_01x08 J14
-U 1 1 5C510F09
-P 9100 1750
-F 0 "J14" H 9179 1742 50  0000 L CNN
-F 1 "AON7804" H 9179 1651 50  0000 L CNN
-F 2 "Housings_DFN_QFN:DFN-8-1EP_3x3mm_Pitch0.5mm" H 9100 1750 50  0001 C CNN
-F 3 "~" H 9100 1750 50  0001 C CNN
-	1    9100 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 1550 8900 1450
-Connection ~ 8900 1450
-Wire Wire Line
-	8900 1850 8900 1950
-Wire Wire Line
-	8575 1950 8575 2325
-Connection ~ 8900 1950
-Text GLabel 8925 2850 0    50   Input ~ 0
+Text GLabel 8900 3000 0    50   Input ~ 0
 GATE2
-Text GLabel 8925 2750 0    50   Input ~ 0
-24V
-Text GLabel 8925 3250 0    50   Input ~ 0
+Text GLabel 9200 3200 2    50   Input ~ 0
+GND
+Text GLabel 8750 3525 0    50   Input ~ 0
 GATE3
-Text GLabel 8925 3150 0    50   Input ~ 0
-24V
-Wire Wire Line
-	8925 2425 8925 2550
-$Comp
-L Connector_Generic:Conn_01x08 J15
-U 1 1 5C530314
-P 9125 2850
-F 0 "J15" H 9204 2842 50  0000 L CNN
-F 1 "AON7804" H 9204 2751 50  0000 L CNN
-F 2 "Housings_DFN_QFN:DFN-8-1EP_3x3mm_Pitch0.5mm" H 9125 2850 50  0001 C CNN
-F 3 "~" H 9125 2850 50  0001 C CNN
-	1    9125 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8925 2425 9375 2425
-Wire Wire Line
-	9375 2525 9375 3425
-Wire Wire Line
-	8925 2550 8925 2650
-Connection ~ 8925 2550
-Wire Wire Line
-	8925 2950 8925 3050
-Connection ~ 8925 3050
-Wire Wire Line
-	8600 3050 8925 3050
-Wire Wire Line
-	8600 3050 8600 3425
-Wire Wire Line
-	8600 3425 9375 3425
-Wire Wire Line
-	8575 1950 8900 1950
-Wire Wire Line
-	8575 2325 9375 2325
+Text GLabel 9050 3725 2    50   Input ~ 0
+GND
 $Comp
 L Connector_Generic:Conn_01x02 J16
 U 1 1 5C4FBC7C
@@ -613,4 +491,376 @@ Text GLabel 5175 3125 0    50   BiDi ~ 0
 GND
 Text GLabel 5175 3225 0    50   Input ~ 0
 24V
+$Comp
+L AON7804:AON7804 Q1
+U 1 1 5C505E77
+P 9100 1650
+F 0 "Q1" H 9307 1650 50  0000 L CNN
+F 1 "AON7804" H 9100 1650 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 9100 1650 50  0001 L BNN
+F 3 "DFN-8 Alpha &amp; Omega Semiconductor" H 9100 1650 50  0001 L BNN
+F 4 "None" H 9100 1650 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 9100 1650 50  0001 L BNN "Field5"
+F 6 "Mosfet 2n-Ch 30v 9a 8dfn" H 9100 1650 50  0001 L BNN "Field6"
+F 7 "AON7804" H 9100 1650 50  0001 L BNN "Field7"
+F 8 "Alpha &" H 9100 1650 50  0001 L BNN "Field8"
+	1    9100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L AON7804:AON7804 Q1
+U 2 1 5C505F32
+P 8925 2225
+F 0 "Q1" H 9133 2225 50  0000 L CNN
+F 1 "AON7804" H 8925 2225 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 8925 2225 50  0001 L BNN
+F 3 "DFN-8 Alpha &amp; Omega Semiconductor" H 8925 2225 50  0001 L BNN
+F 4 "None" H 8925 2225 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 8925 2225 50  0001 L BNN "Field5"
+F 6 "Mosfet 2n-Ch 30v 9a 8dfn" H 8925 2225 50  0001 L BNN "Field6"
+F 7 "AON7804" H 8925 2225 50  0001 L BNN "Field7"
+F 8 "Alpha &" H 8925 2225 50  0001 L BNN "Field8"
+	2    8925 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 1350 9300 1450
+Wire Wire Line
+	9200 1450 9300 1450
+Connection ~ 9300 1450
+Wire Wire Line
+	9300 1450 9300 2225
+Wire Wire Line
+	9300 1350 9200 1350
+Wire Wire Line
+	9375 2325 9125 2325
+Wire Wire Line
+	9125 2325 9125 2025
+Wire Wire Line
+	9125 1925 9025 1925
+Wire Wire Line
+	9025 2025 9125 2025
+Connection ~ 9125 2025
+Wire Wire Line
+	9125 2025 9125 1925
+$Comp
+L AON7804:AON7804 Q2
+U 1 1 5C5220BA
+P 9100 2900
+F 0 "Q2" H 9307 2900 50  0000 L CNN
+F 1 "AON7804" H 9100 2900 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 9100 2900 50  0001 L BNN
+F 3 "DFN-8 Alpha &amp; Omega Semiconductor" H 9100 2900 50  0001 L BNN
+F 4 "None" H 9100 2900 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 9100 2900 50  0001 L BNN "Field5"
+F 6 "Mosfet 2n-Ch 30v 9a 8dfn" H 9100 2900 50  0001 L BNN "Field6"
+F 7 "AON7804" H 9100 2900 50  0001 L BNN "Field7"
+F 8 "Alpha &" H 9100 2900 50  0001 L BNN "Field8"
+	1    9100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L AON7804:AON7804 Q2
+U 2 1 5C52215C
+P 8950 3425
+F 0 "Q2" H 9158 3425 50  0000 L CNN
+F 1 "AON7804" H 8950 3425 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 8950 3425 50  0001 L BNN
+F 3 "DFN-8 Alpha &amp; Omega Semiconductor" H 8950 3425 50  0001 L BNN
+F 4 "None" H 8950 3425 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 8950 3425 50  0001 L BNN "Field5"
+F 6 "Mosfet 2n-Ch 30v 9a 8dfn" H 8950 3425 50  0001 L BNN "Field6"
+F 7 "AON7804" H 8950 3425 50  0001 L BNN "Field7"
+F 8 "Alpha &" H 8950 3425 50  0001 L BNN "Field8"
+	2    8950 3425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9375 2425 9200 2425
+Wire Wire Line
+	9200 2425 9200 2600
+Connection ~ 9200 2600
+Wire Wire Line
+	9200 2600 9200 2700
+Wire Wire Line
+	9375 2525 9375 3125
+Wire Wire Line
+	9375 3125 9050 3125
+Wire Wire Line
+	9050 3125 9050 3225
+Connection ~ 9050 3125
+$Comp
+L Device:R R2
+U 1 1 5C5357D2
+P 5550 4050
+F 0 "R2" H 5525 4300 50  0000 L CNN
+F 1 "10k" V 5550 3975 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 5480 4050 50  0001 C CNN
+F 3 "~" H 5550 4050 50  0001 C CNN
+	1    5550 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7000 3900 2    50   BiDi ~ 0
+3.3V
+Text Label 6400 1300 0    50   ~ 0
+SCL0
+Text Label 6400 1400 0    50   ~ 0
+SDA0
+Text Label 6400 1500 0    50   ~ 0
+SCL1
+Text Label 6400 1600 0    50   ~ 0
+SDA1
+Text Label 6400 1700 0    50   ~ 0
+SCL2
+Text Label 6400 1800 0    50   ~ 0
+SDA2
+Text Label 6400 1900 0    50   ~ 0
+SCL3
+Text Label 6400 2000 0    50   ~ 0
+SDA3
+Text Label 6400 2100 0    50   ~ 0
+SCL4
+Text Label 6400 2200 0    50   ~ 0
+SDA4
+Text Label 6400 2300 0    50   ~ 0
+SCL5
+Text Label 6400 2400 0    50   ~ 0
+SDA5
+Text Label 7800 1300 2    50   ~ 0
+SCL0
+Text Label 7800 1400 2    50   ~ 0
+SDA0
+Text Label 7800 1750 2    50   ~ 0
+SCL1
+Text Label 7800 1850 2    50   ~ 0
+SDA1
+Text Label 7800 2200 2    50   ~ 0
+SCL2
+Text Label 7800 2300 2    50   ~ 0
+SDA2
+Text Label 7800 2650 2    50   ~ 0
+SCL3
+Text Label 7800 2750 2    50   ~ 0
+SDA3
+Text Label 7800 3100 2    50   ~ 0
+SCL4
+Text Label 7800 3200 2    50   ~ 0
+SDA4
+Text Label 7800 3550 2    50   ~ 0
+SCL5
+Text Label 7800 3650 2    50   ~ 0
+SDA5
+$Comp
+L Device:R R3
+U 1 1 5C53EC25
+P 5675 4050
+F 0 "R3" H 5650 4300 50  0000 L CNN
+F 1 "10k" V 5675 3975 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 5605 4050 50  0001 C CNN
+F 3 "~" H 5675 4050 50  0001 C CNN
+	1    5675 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5C53EC6B
+P 5800 4050
+F 0 "R4" H 5775 4300 50  0000 L CNN
+F 1 "10k" V 5800 3975 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 5730 4050 50  0001 C CNN
+F 3 "~" H 5800 4050 50  0001 C CNN
+	1    5800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5C53ECAF
+P 5925 4050
+F 0 "R5" H 5900 4300 50  0000 L CNN
+F 1 "10k" V 5925 3975 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 5855 4050 50  0001 C CNN
+F 3 "~" H 5925 4050 50  0001 C CNN
+	1    5925 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5C53ECF1
+P 6050 4050
+F 0 "R6" H 6025 4300 50  0000 L CNN
+F 1 "10k" V 6050 3975 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 5980 4050 50  0001 C CNN
+F 3 "~" H 6050 4050 50  0001 C CNN
+	1    6050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5C53ED37
+P 6175 4050
+F 0 "R7" H 6150 4300 50  0000 L CNN
+F 1 "10k" V 6175 3975 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 6105 4050 50  0001 C CNN
+F 3 "~" H 6175 4050 50  0001 C CNN
+	1    6175 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5C53ED7F
+P 6300 4050
+F 0 "R8" H 6275 4300 50  0000 L CNN
+F 1 "10k" V 6300 3975 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 6230 4050 50  0001 C CNN
+F 3 "~" H 6300 4050 50  0001 C CNN
+	1    6300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5C53EF37
+P 6425 4050
+F 0 "R9" H 6400 4300 50  0000 L CNN
+F 1 "10k" V 6425 3975 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 6355 4050 50  0001 C CNN
+F 3 "~" H 6425 4050 50  0001 C CNN
+	1    6425 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5C53EF83
+P 6550 4050
+F 0 "R10" H 6525 4300 50  0000 L CNN
+F 1 "10k" V 6550 3975 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 6480 4050 50  0001 C CNN
+F 3 "~" H 6550 4050 50  0001 C CNN
+	1    6550 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5C53EFD1
+P 6675 4050
+F 0 "R11" H 6650 4300 50  0000 L CNN
+F 1 "10k" V 6675 3975 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 6605 4050 50  0001 C CNN
+F 3 "~" H 6675 4050 50  0001 C CNN
+	1    6675 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3900 5675 3900
+Connection ~ 5675 3900
+Wire Wire Line
+	5675 3900 5800 3900
+Connection ~ 5800 3900
+Wire Wire Line
+	5800 3900 5925 3900
+Connection ~ 5925 3900
+Wire Wire Line
+	5925 3900 6050 3900
+Connection ~ 6050 3900
+Wire Wire Line
+	6050 3900 6175 3900
+Connection ~ 6175 3900
+Wire Wire Line
+	6175 3900 6300 3900
+Connection ~ 6300 3900
+Wire Wire Line
+	6300 3900 6425 3900
+Connection ~ 6425 3900
+Wire Wire Line
+	6425 3900 6550 3900
+Connection ~ 6550 3900
+Wire Wire Line
+	6550 3900 6675 3900
+Connection ~ 6675 3900
+Text Label 5550 4200 3    50   ~ 0
+SCL0
+Text Label 5675 4200 3    50   ~ 0
+SDA0
+Text Label 5800 4200 3    50   ~ 0
+SCL1
+Text Label 5925 4200 3    50   ~ 0
+SDA1
+Text Label 6050 4200 3    50   ~ 0
+SCL2
+Text Label 6175 4200 3    50   ~ 0
+SDA2
+Text Label 6300 4200 3    50   ~ 0
+SCL3
+Text Label 6425 4200 3    50   ~ 0
+SDA3
+Text Label 6550 4200 3    50   ~ 0
+SCL4
+Text Label 6675 4200 3    50   ~ 0
+SDA4
+Wire Wire Line
+	6675 3900 6800 3900
+$Comp
+L Device:R R12
+U 1 1 5C5452DE
+P 6800 4050
+F 0 "R12" H 6775 4300 50  0000 L CNN
+F 1 "10k" V 6800 3975 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 6730 4050 50  0001 C CNN
+F 3 "~" H 6800 4050 50  0001 C CNN
+	1    6800 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 6800 3900
+Wire Wire Line
+	6800 3900 6925 3900
+$Comp
+L Device:R R13
+U 1 1 5C545332
+P 6925 4050
+F 0 "R13" H 6900 4300 50  0000 L CNN
+F 1 "10k" V 6925 3975 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 6855 4050 50  0001 C CNN
+F 3 "~" H 6925 4050 50  0001 C CNN
+	1    6925 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 6925 3900
+Wire Wire Line
+	6925 3900 7000 3900
+Text Label 6800 4200 3    50   ~ 0
+SCL5
+Text Label 6925 4200 3    50   ~ 0
+SDA5
+$Comp
+L Device:R R1
+U 1 1 5C545655
+P 5150 1650
+F 0 "R1" H 5125 1900 50  0000 L CNN
+F 1 "10k" V 5150 1575 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 5080 1650 50  0001 C CNN
+F 3 "~" H 5150 1650 50  0001 C CNN
+	1    5150 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 1800
+Wire Wire Line
+	5150 1800 5600 1800
+Text GLabel 5300 1500 2    50   BiDi ~ 0
+3.3V
+Wire Wire Line
+	5150 1500 5300 1500
+$Comp
+L Connector_Generic:Conn_01x02 J14
+U 1 1 5C5498D2
+P 5375 3375
+F 0 "J14" H 5455 3367 50  0000 L CNN
+F 1 "Power24V" H 5455 3276 50  0000 L CNN
+F 2 "custom_lib:Wago_2060_2_SMD" H 5375 3375 50  0001 C CNN
+F 3 "~" H 5375 3375 50  0001 C CNN
+	1    5375 3375
+	1    0    0    -1  
+$EndComp
+Text GLabel 5175 3475 0    50   Input ~ 0
+24V
+Text GLabel 5175 3375 0    50   Input ~ 0
+GND
 $EndSCHEMATC
