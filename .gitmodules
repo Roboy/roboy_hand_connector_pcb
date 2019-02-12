@@ -4,3 +4,6 @@
 [submodule "kicad_db"]
 	path = kicad_db
 	url = https://github.com/Roboy/kicad_db
+[submodule "vidor_shield/kicad.lib"]
+	path = vidor_shield/kicad.lib
+	url = https://github.com/RoboUlbricht/kicad.lib
