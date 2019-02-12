@@ -1,6 +1,196 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# AON7804_AON7804
+#
+DEF ~AON7804_AON7804 Q 0 40 N N 2 L N
+F0 "Q" -451 100 50 H V L BNN
+F1 "AON7804_AON7804" 0 0 50 H I L BNN
+F2 "DFN3X3" 0 0 50 H I L BNN
+F3 "DFN-8 Alpha &amp; Omega Semiconductor" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "Unavailable" 0 0 50 H I L BNN
+F6 "Mosfet 2n-Ch 30v 9a 8dfn" 0 0 50 H I L BNN
+F7 "AON7804" 0 0 50 H I L BNN
+F8 "Alpha &" 0 0 50 H I L BNN
+DRAW
+C 100 -100 14 1 0 0 N
+C 100 100 14 1 0 0 N
+C 100 -100 14 2 0 0 N
+C 100 100 14 2 0 0 N
+T 0 -500 0 70 0 0 0 AON7804 Normal 0 L B
+T 0 -500 0 70 0 0 0 AON7804 Normal 0 L B
+P 2 1 0 6 -100 -100 -48 -100 N
+P 2 1 0 10 -45 100 -45 -100 N
+P 2 1 0 10 0 -100 0 -145 N
+P 2 1 0 10 0 -55 0 -100 N
+P 2 1 0 10 0 0 0 -30 N
+P 2 1 0 6 0 0 100 0 N
+P 2 1 0 10 0 30 0 0 N
+P 2 1 0 10 0 100 0 55 N
+P 2 1 0 6 0 100 100 100 N
+P 2 1 0 10 0 145 0 100 N
+P 2 1 0 6 100 -100 0 -100 N
+P 2 1 0 6 100 -100 150 -100 N
+P 2 1 0 6 100 0 100 -100 N
+P 2 1 0 6 100 100 100 200 N
+P 2 1 0 6 100 100 150 100 N
+P 2 1 0 6 130 20 120 10 N
+P 2 1 0 6 150 20 130 20 N
+P 2 1 0 6 150 20 150 -100 N
+P 2 1 0 6 150 100 150 20 N
+P 2 1 0 6 170 20 150 20 N
+P 2 1 0 6 180 30 170 20 N
+P 3 1 0 6 10 0 50 30 50 -30 F
+P 3 1 0 6 150 20 130 -10 170 -10 F
+P 2 2 0 6 -100 -100 -48 -100 N
+P 2 2 0 10 -45 100 -45 -100 N
+P 2 2 0 10 0 -100 0 -145 N
+P 2 2 0 10 0 -55 0 -100 N
+P 2 2 0 10 0 0 0 -30 N
+P 2 2 0 6 0 0 100 0 N
+P 2 2 0 10 0 30 0 0 N
+P 2 2 0 10 0 100 0 55 N
+P 2 2 0 6 0 100 100 100 N
+P 2 2 0 10 0 145 0 100 N
+P 2 2 0 6 100 -100 0 -100 N
+P 2 2 0 6 100 -100 150 -100 N
+P 2 2 0 6 100 0 100 -100 N
+P 2 2 0 6 100 100 100 200 N
+P 2 2 0 6 100 100 150 100 N
+P 2 2 0 6 130 20 120 10 N
+P 2 2 0 6 150 20 130 20 N
+P 2 2 0 6 150 20 150 -100 N
+P 2 2 0 6 150 100 150 20 N
+P 2 2 0 6 170 20 150 20 N
+P 2 2 0 6 180 30 170 20 N
+P 3 2 0 6 10 0 50 30 50 -30 F
+P 3 2 0 6 150 20 130 -10 170 -10 F
+X D D1 100 200 0 L 40 40 1 0 P
+X D1 D1A 100 300 100 D 40 40 1 0 P
+X G G1 -200 -100 100 R 40 40 1 0 P
+X S S1 100 -300 200 U 40 40 1 0 P
+X D D2 100 200 0 L 40 40 2 0 P
+X D1 D2A 100 300 100 D 40 40 2 0 P
+X G G2 -200 -100 100 R 40 40 2 0 P
+X S S2 100 -300 200 U 40 40 2 0 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x02
+#
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x04
+#
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x20
+#
+DEF Connector_Generic_Conn_01x20 J 0 40 Y N 1 F N
+F0 "J" 0 1000 50 H V C CNN
+F1 "Connector_Generic_Conn_01x20" 0 -1100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -995 0 -1005 1 1 6 N
+S -50 -895 0 -905 1 1 6 N
+S -50 -795 0 -805 1 1 6 N
+S -50 -695 0 -705 1 1 6 N
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 705 0 695 1 1 6 N
+S -50 805 0 795 1 1 6 N
+S -50 905 0 895 1 1 6 N
+S -50 950 50 -1050 1 1 10 f
+X Pin_1 1 -200 900 150 R 50 50 1 1 P
+X Pin_10 10 -200 0 150 R 50 50 1 1 P
+X Pin_11 11 -200 -100 150 R 50 50 1 1 P
+X Pin_12 12 -200 -200 150 R 50 50 1 1 P
+X Pin_13 13 -200 -300 150 R 50 50 1 1 P
+X Pin_14 14 -200 -400 150 R 50 50 1 1 P
+X Pin_15 15 -200 -500 150 R 50 50 1 1 P
+X Pin_16 16 -200 -600 150 R 50 50 1 1 P
+X Pin_17 17 -200 -700 150 R 50 50 1 1 P
+X Pin_18 18 -200 -800 150 R 50 50 1 1 P
+X Pin_19 19 -200 -900 150 R 50 50 1 1 P
+X Pin_2 2 -200 800 150 R 50 50 1 1 P
+X Pin_20 20 -200 -1000 150 R 50 50 1 1 P
+X Pin_3 3 -200 700 150 R 50 50 1 1 P
+X Pin_4 4 -200 600 150 R 50 50 1 1 P
+X Pin_5 5 -200 500 150 R 50 50 1 1 P
+X Pin_6 6 -200 400 150 R 50 50 1 1 P
+X Pin_7 7 -200 300 150 R 50 50 1 1 P
+X Pin_8 8 -200 200 150 R 50 50 1 1 P
+X Pin_9 9 -200 100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Interface_Expansion_TCA9548AMRGER
 #
 DEF Interface_Expansion_TCA9548AMRGER U 0 40 Y Y 1 F N
@@ -42,11 +232,11 @@ X GND 9 0 -1000 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# custom_TE-Connectivity_Micro_Match_215079-10
+# roboy_hand_connector_pcb-rescue_TE-Connectivity_Micro_Match_215079-10-custom
 #
-DEF custom_TE-Connectivity_Micro_Match_215079-10 J 0 40 Y N 1 F N
+DEF roboy_hand_connector_pcb-rescue_TE-Connectivity_Micro_Match_215079-10-custom J 0 40 Y N 1 F N
 F0 "J" 0 550 50 H V C CNN
-F1 "custom_TE-Connectivity_Micro_Match_215079-10" 100 0 50 V V C CNN
+F1 "roboy_hand_connector_pcb-rescue_TE-Connectivity_Micro_Match_215079-10-custom" 100 0 50 V V C CNN
 F2 "" 0 300 50 H I C CNN
 F3 "" 0 300 50 H I C CNN
 $FPLIST
@@ -77,11 +267,11 @@ X P9 9 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# custom_TE-Connectivity_Micro_Match_215079-4
+# roboy_hand_connector_pcb-rescue_TE-Connectivity_Micro_Match_215079-4-custom
 #
-DEF custom_TE-Connectivity_Micro_Match_215079-4 J 0 40 Y N 1 F N
+DEF roboy_hand_connector_pcb-rescue_TE-Connectivity_Micro_Match_215079-4-custom J 0 40 Y N 1 F N
 F0 "J" 0 250 50 H V C CNN
-F1 "custom_TE-Connectivity_Micro_Match_215079-4" 100 0 50 V V C CNN
+F1 "roboy_hand_connector_pcb-rescue_TE-Connectivity_Micro_Match_215079-4-custom" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -100,11 +290,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# custom_TE-Connectivity_Micro_Match_215079-6
+# roboy_hand_connector_pcb-rescue_TE-Connectivity_Micro_Match_215079-6-custom
 #
-DEF custom_TE-Connectivity_Micro_Match_215079-6 J 0 40 Y N 1 F N
+DEF roboy_hand_connector_pcb-rescue_TE-Connectivity_Micro_Match_215079-6-custom J 0 40 Y N 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "custom_TE-Connectivity_Micro_Match_215079-6" 100 0 50 V V C CNN
+F1 "roboy_hand_connector_pcb-rescue_TE-Connectivity_Micro_Match_215079-6-custom" 100 0 50 V V C CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST

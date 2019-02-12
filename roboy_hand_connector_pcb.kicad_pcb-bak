@@ -1684,7 +1684,7 @@
     (tags "resistor 0402")
     (path /5C50F086)
     (attr smd)
-    (fp_text reference R17 (at 0 1.25 180) (layer F.SilkS)
+    (fp_text reference R17 (at 0 -1.35 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1k (at 0 1.45 180) (layer F.Fab)
